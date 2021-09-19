@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { ACTION_REMOVE_ITEM } from "../redux/actions/cartActions";
-require('dotenv').config();
 
 import PaymentConfirm from './PaymentConfirm';
+require('dotenv').config();
 
 // return thousand number format
 function formatNumber(num) {

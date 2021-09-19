@@ -53,7 +53,6 @@ const Products = (props) => {
   }
 
   async function addCart(item) {
-    // console.log("RESPONSE", item);
     await fetch(`${process.env.REACT_APP_API}/cart/addcart`, {
       method: "POST",
       headers: {
