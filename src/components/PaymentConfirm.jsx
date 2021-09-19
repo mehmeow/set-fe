@@ -5,6 +5,7 @@ import { createUseStyles } from 'react-jss'
 // Redux
 import { useDispatch, useSelector } from "react-redux";
 import { ACTION_SEND_PAY, ACTION_UPDATE_CART } from "../redux/actions/cartActions";
+require('dotenv').config();
 
 const useStyles = createUseStyles({
   paymentBox: { padding: 10 },

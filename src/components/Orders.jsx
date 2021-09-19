@@ -7,6 +7,7 @@ import { ArrowRight } from 'react-bootstrap-icons';
 import { useDispatch, useSelector } from "react-redux";
 import { ACTION_ADD_ITEM } from "../redux/actions/cartActions";
 import { ACTION_GET_HISTORY } from "../redux/actions/ordersActions";
+require('dotenv').config();
 
 function formatNumber(num) {
   return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
