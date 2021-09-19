@@ -6,6 +6,7 @@ import { createUseStyles } from 'react-jss';
 import { useDispatch, useSelector } from "react-redux";
 import { ACTION_REQUEST_DATA } from "../redux/actions/manageDataActions";
 import { ACTION_ADD_ITEM } from "../redux/actions/cartActions";
+require('dotenv').config();
 
 const useStyles = createUseStyles({
   card: {
